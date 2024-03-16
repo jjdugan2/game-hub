@@ -5,6 +5,7 @@ import PlatformIconList from "./PlatformIconList";
 import CriticScore from "./CriticScore";
 import getCroppedImageUrl from "../services/image-url";
 import Like from "./Like/Like";
+import Emoji from "./Emoji";
 
 interface Props {
   game: Game;
@@ -21,6 +22,7 @@ const GameCard = ({ game }: Props) => {
           <HStack>
             <Like onClick={() => console.log("clicked LIKE")} />
             <CriticScore score={game.metacritic} />
+            <Emoji rating={game.rating_top} />
           </HStack>
         </HStack>
         <Heading fontSize="2xl">{game.name}</Heading>
