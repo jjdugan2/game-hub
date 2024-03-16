@@ -1,0 +1,7 @@
+/* This is where you add vanilla css */
+.btnLike {
+    padding: 4px 6px;
+    border-radius: 3px;
+    border: 0;
+    background-color: #6c757d;
+}
