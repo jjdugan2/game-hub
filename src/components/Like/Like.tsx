@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { BsHeartFill } from "react-icons/bs";
-import styles from "./Like.module.css";
 import { Badge } from "@chakra-ui/react";
-import { color } from "framer-motion";
 
 interface Props {
   onClick: () => void;
